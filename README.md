@@ -4,7 +4,7 @@ This is a recipe website, where user can search his/her favorite recipes and can
 
 Even you can add meals to your meal planner, so that you no need to worry what to eat when you are in hurry. Are you feeling exited, then lets checkout how to use...
 
-**Deployed Link :[Yumsto - Recipe, choose your best food](https://avinod-kumar-au9.github.io/yumsto/)**
+**Deployed Link :[Yumsto - Recipe, choose your best food](https://yumsto-recipe-12.web.app/)**
 
 **Steps for usage of the project :**
 
