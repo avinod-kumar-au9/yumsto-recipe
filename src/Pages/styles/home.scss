@@ -1,0 +1,10 @@
+.bg {
+  background-image: linear-gradient(
+      rgba(117, 114, 114, 0.5),
+      rgba(207, 196, 196, 0.5)
+    ),
+    url("../images/tomato-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}

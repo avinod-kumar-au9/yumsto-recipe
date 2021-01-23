@@ -1,0 +1,26 @@
+.copyright {
+  margin-top: 5px;
+  padding: 20px;
+  background-color: rgb(148, 156, 153);
+  color: white;
+
+  .icons {
+    text-align: center;
+    * {
+      padding: 7px;
+      font-size: 25px;
+
+      color: rgb(44, 24, 224);
+    }
+
+    *:hover{
+      color: yellow;
+      cursor: pointer;
+    }
+  }
+
+  .copyrightTitle{
+    margin-top: 20px;
+    text-align: center;
+  }
+}

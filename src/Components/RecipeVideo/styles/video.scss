@@ -1,0 +1,134 @@
+.mainvideodiv {
+  min-height: 50vh;
+
+  .videoTitle {
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+
+  .videosearchdiv {
+    position: relative;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+    .searchbar {
+      margin-top: 0;
+      margin-left: 0;
+      padding: 7px 0;
+      border-radius: 50px;
+      border: 1px solid rgb(224, 187, 187);
+      padding-left: 50px;
+      font-size: large;
+      z-index: 0;
+      background-color: transparent;
+      color: black;
+      width: 600px;
+    }
+    ::placeholder {
+      color: black;
+      opacity: 1; /* Firefox */
+      // margin-left: 20px;
+    }
+
+    .searchbar:focus {
+      outline: none;
+    }
+
+    .SearchIcon {
+      position: absolute;
+      left: 0;
+      padding: 7px;
+      top: 0;
+      color: rgb(192, 71, 71);
+      z-index: 0;
+      font-size: 35px;
+      cursor: pointer;
+      // background-color: #aaa;
+    }
+  }
+
+  .videoRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 30px;
+
+    .videoCol {
+      .videoframe {
+        width: 100%;
+        height: 300px;
+      }
+      p {
+        text-align: center;
+        margin: 20px 0;
+        font-weight: 600;
+        font-size: large;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .mainvideodiv {
+    .videoRow {
+      grid-template-columns: 1fr 1fr;
+      margin-right: 10px;
+      .videoCol {
+        .videoframe {
+          width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainvideodiv {
+    .videosearchdiv {
+      .searchbar {
+        width: 500px;
+      }
+    }
+    .videoRow {
+      grid-template-columns: 1fr;
+      .videoCol {
+        width: 60%;
+        .videoframe {
+          width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mainvideodiv {
+    .videosearchdiv {
+      .searchbar {
+        width: 400px;
+      }
+    }
+    .videoRow {
+      grid-template-columns: 1fr;
+      margin-right: 10px;
+      .videoCol {
+        width: 100%;
+        .videoframe {
+          width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .mainvideodiv {
+    .videosearchdiv {
+      .searchbar {
+        width: 280px;
+      }
+    }
+  }
+}

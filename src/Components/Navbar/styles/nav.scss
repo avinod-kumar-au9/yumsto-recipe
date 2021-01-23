@@ -1,0 +1,116 @@
+.topnav {
+  overflow: hidden;
+  // background-color: rgb(44, 42, 42);
+  background-color: rgb(110, 107, 107);
+  width: 100%;
+  // position: fixed;
+  // z-index: 1;
+
+  .logingrp {
+    float: right;
+    margin-right: 100px;
+  }
+
+  .loginbutt {
+    float: right;
+    color: white;
+    margin-right: 100px;
+    display: block;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .child {
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .logo1 {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+  }
+  .child1 {
+    text-align: center;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .topnav-right {
+    float: right;
+  }
+  .icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav {
+    .logingrp {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .topnav {
+    .child:not(:first-child) {
+      display: none;
+    }
+
+    .loginbutt,
+    .logingrp {
+      display: none;
+    }
+    .child.icon {
+      float: right;
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive .child,
+  .topnav.responsive .loginbutt,
+  .topnav.responsive .logingrp {
+    float: none;
+    display: block;
+    text-align: left;
+    // margin-bottom: 10px;
+    // padding: 10px 0;
+  }
+
+  .topnav.responsive .child1,
+  .topnav.responsive .loginbutt,
+  .topnav.responsive .logingrp {
+    padding: 10px 0;
+    margin-left: 20px;
+  }
+
+  .topnav.responsive .child2 {
+    margin-left: 0px;
+    padding-left: 0;
+  }
+}
