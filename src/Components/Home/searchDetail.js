@@ -41,7 +41,7 @@ const Detail = (props) => {
       </div>
       <div className="searchCol">
         <h3 style={{ color: "white", margin: "20px 0" }}>
-          <center>check trending recipes, you many interested</center>
+          <center>check trending recipes, you may interested</center>
         </h3>
         <div className="popularRow">
           <div className="popularCol">

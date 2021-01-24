@@ -54,6 +54,7 @@
   }
   .icon {
     display: none;
+    cursor: pointer;
   }
 }
 
@@ -90,6 +91,7 @@
     position: absolute;
     right: 0;
     top: 0;
+   
   }
 
   .topnav.responsive .child,
